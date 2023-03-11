@@ -7,6 +7,7 @@ import Hero from "./components/Hero/Hero";
 import Money from "./components/Money/Money";
 import Share from "./components/Share/Share";
 import { GlobalStyleComponent } from "./styles/GlobalStyles";
+import { GlobalFontComponent } from "./fonts/FontStyled";
 import { theme } from "./styles/theme";
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Share />
       <Money />
         <Footer />
-         <GlobalStyleComponent />
+        <GlobalStyleComponent />
+        <GlobalFontComponent/>
       </ThemeProvider>
     </>
   );

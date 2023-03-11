@@ -7,6 +7,11 @@ export const theme = Object.freeze({
     dark: "#0a0a0a;",
     mainBackground: "#DDD0C8",
   },
+  fonts: {
+    primary: "RubikRegular, sans serif",
+    primaryMedium: "RubikMedium, sans serif",
+    primaryBold: "RubikBold, sans serif",
+  },
   fontSizes: {
     small: "14px",
     medium: "18px",
