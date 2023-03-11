@@ -1,26 +1,40 @@
 import React from "react";
-import { StyledSection, InfoWrapper, StyledMainTitle} from "./Hero.styled";
+import { Container } from "../UI/Container.styled";
+import {
+  StyledSection,
+  InfoWrapper,
+  StyledMainTitle,
+  StyledDesc,
+  StyledSecondTitle,
+  TasksList,
+  TaskItem,
+  StyledLink
+} from "./Hero.styled";
 function Hero() {
   return (
     <StyledSection>
-      <InfoWrapper>
-        <StyledMainTitle>
-          БЛАГОДІЙНА ОРГАНІЗАЦІЯ "БЛАГОДІЙНИЙ ФОНД "ВОЛОНТЕРИ БАТЬКІВЩИНИ"
-        </StyledMainTitle>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-          doloribus dolore impedit, nam, nostrum ab adipisci ducimus tempora
-          placeat dignissimos vitae voluptatum suscipit perspiciatis
-          reprehenderit ad a reiciendis quaerat aspernatur. 
-        </p>
-        <h3>Основні завдання благодійного фонду:</h3>
-        <ul>
-          <li>допомога тимчасово переміщеним особам</li>
-          <li>допомога війську</li>
-          <li>психологічна підтримка тимчасово переміщеним особам</li>
-        </ul>
-        <a href="#">Детальніше</a>
-      </InfoWrapper>
+      <Container>
+        <InfoWrapper>
+          <StyledMainTitle>
+            БЛАГОДІЙНА ОРГАНІЗАЦІЯ "БЛАГОДІЙНИЙ ФОНД "ВОЛОНТЕРИ БАТЬКІВЩИНИ"
+          </StyledMainTitle>
+          <StyledDesc>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            doloribus dolore impedit, nam, nostrum ab adipisci ducimus tempora
+            placeat dignissimos vitae voluptatum suscipit perspiciatis
+            reprehenderit ad a reiciendis quaerat aspernatur.
+          </StyledDesc>
+          <StyledSecondTitle>
+            Основні завдання благодійного фонду:
+          </StyledSecondTitle>
+          <TasksList>
+            <TaskItem>допомога тимчасово переміщеним особам</TaskItem>
+            <TaskItem>допомога війську</TaskItem>
+            <TaskItem>психологічна підтримка тимчасово переміщеним особам</TaskItem>
+          </TasksList>
+          <StyledLink href="#">Детальніше</StyledLink>
+        </InfoWrapper>
+      </Container>
     </StyledSection>
   );
 }

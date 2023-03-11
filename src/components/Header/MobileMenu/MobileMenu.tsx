@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
+import logoImg from '../../../assets/logo.jpg';
 import  SocialLinks from '../../SocialLinks/SocialLinks';
 import {
   ModileWrapper,
@@ -24,7 +25,7 @@ const MobileMenu: React.FC<IProps> = ({ isMobileMenuOpen, open, hideMenu }) => {
     <ModileWrapper open={isMobileMenuOpen}>
       <LogoWrapper>
         <MobileLogo
-          src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png"
+          src={ logoImg}
           alt="логотип благодійної організації"
         />
         <StyledCloseBtn

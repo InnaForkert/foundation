@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const SocialLinksList = styled.ul`
+list-style: none;
 display: flex;
 gap:${({ theme }) => theme.spacing(3)};
 justify-content: flex-start;
