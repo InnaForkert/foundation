@@ -12,7 +12,7 @@ function Header() {
   
   return (
     <StyledHeader>
-      <Logo src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png" />
+      <Logo src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png" alt="логотип благодійної організації"/>
       <MobileMenuBtn>
         <GiHamburgerMenu size={25} onClick={onMenuClick} z-index={ 50} />
       </MobileMenuBtn >

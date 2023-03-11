@@ -2,9 +2,9 @@ export const theme = Object.freeze({
   colors: {
     accent: "#62002f",
     white: "#ffffff",
-    gray: "rgba(161, 171, 181, 0.6)",
+    gray: "#5a6875",
     light: "#898989",
-    dark: "#323232",
+    dark: "#0a0a0a;",
     mainBackground: "#DDD0C8",
   },
   fontSizes: {
