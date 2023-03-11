@@ -9,7 +9,7 @@ export const StyledSection = styled.section`
   width: 100%;
   flex-direction: column;
   justify-content: center;
-background-image: url(${hero}) ;
+  background-image: url(${heroImg}) ;
   @media screen and (min-width: 768px) {
     padding: 3rem 6rem;
   }
