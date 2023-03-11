@@ -18,7 +18,10 @@ export const ModileWrapper = styled.div<IProps>`
   justify-content: space-between;
   flex-direction: column;
   gap: 20px;
-  padding: 3rem 6rem;
+  padding: 1rem 3rem;
+  @media screen and (min-width:768px){
+     padding: 3rem 6rem;
+     }
 `;
 
 export const MobileMenuList = styled.ul`
@@ -30,7 +33,10 @@ export const MobileMenuList = styled.ul`
 export const StyledItem = styled.li`
   color: ${({ theme }) => theme.colors.dark};
   font-weight: 700;
-  font-size: ${({ theme }) => theme.spacing(10)};
+  font-size: ${({ theme }) => theme.spacing(8)};
+   @media screen and (min-width:768px){
+     font-size: ${({ theme }) => theme.spacing(10)};
+     }
 `;
 
 export const LogoWrapper = styled.div`
@@ -54,6 +60,10 @@ export const MobileLogo = styled.img`
 export const MobileFooter = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  @media screen and (min-width:768px){
+     flex-direction: row;
+  }
 `;
 
 export const StyledTitle = styled.h3`
