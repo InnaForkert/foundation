@@ -5,6 +5,7 @@ body {
   height: 100vh;
   color:${({ theme }) => theme.colors.dark};
   background-color: ${({ theme }) => theme.colors.white};
+  font-family: ${({ theme }) => theme.fonts.primary};
 }
   img {
     display: block;
@@ -13,8 +14,7 @@ body {
   }
   ul,ol {
     padding: 0;
-    margin: 0;
-    list-style: none;
+    margin: 0;    
   }
   h1,
   h2,

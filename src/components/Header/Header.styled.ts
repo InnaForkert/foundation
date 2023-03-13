@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.div`
+export const StyledHeader = styled.header`
   position: fixed;
   top: 0;
   left: 0;
@@ -9,14 +9,15 @@ export const StyledHeader = styled.div`
   justify-content: space-between;
 
   width: 100%;
-  padding-inline: 10px;
+  padding: 12px 15px 12px 23px;
   box-shadow: 1px 1px 3px 1px gray;
+  background-color: ${({ theme }) => theme.colors.white};
 `;
 
 export const Logo = styled.img`
   display: block;
-  width: 50px;
-  height: 50px;
+  width: ${({ theme }) => theme.spacing(15)};
+  height: ${({ theme }) => theme.spacing(15)};
 `;
 
 export const MobileMenuBtn = styled.button`
@@ -24,4 +25,5 @@ export const MobileMenuBtn = styled.button`
   background: transparent;
   outline: none;
   border: none;
+  cursor: pointer;
 `;

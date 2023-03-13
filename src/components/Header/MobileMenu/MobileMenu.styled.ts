@@ -28,6 +28,7 @@ export const MobileMenuList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: ${({ theme }) => theme.spacing(4)};
+  list-style: none;
 `;
 
 export const StyledItem = styled.li`
@@ -74,6 +75,7 @@ export const StyledTitle = styled.h3`
   font-size: ${({ theme }) => theme.spacing(5)};
 `;
 export const MobileTelList = styled.ul`
+list-style: none;
 margin-bottom:  ${({ theme }) => theme.spacing(5)};
 `
 export const StyledLink = styled.a`
