@@ -16,7 +16,7 @@ function Hero() {
       <Container>
         <InfoWrapper>
           <StyledMainTitle>
-            БЛАГОДІЙНА ОРГАНІЗАЦІЯ "БЛАГОДІЙНИЙ ФОНД "ВОЛОНТЕРИ БАТЬКІВЩИНИ"
+            БЛАГОДІЙНА ОРГАНІЗАЦІЯ "БЛАГОДІЙНИЙ ФОНД "ВОЛОНТЕРИ БАТЬКІВЩИНИ""
           </StyledMainTitle>
           <StyledDesc>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum

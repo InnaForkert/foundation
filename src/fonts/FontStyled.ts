@@ -4,6 +4,9 @@ import RubikMediumWoff from "./Rubic/Rubik-Medium.woff";
 import RubikMediumWoff2 from "./Rubic/Rubik-Medium.woff2";
 import RubikBoldWoff from "./Rubic/Rubik-Bold.woff";
 import RubikBoldWoff2 from "./Rubic/Rubik-Bold.woff2";
+import RubikExtraBoldWoff from "./Rubic/Rubik-Black.woff";
+import RubikExtraBoldWoff2 from "./Rubic/Rubik-Black.woff2";
+
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalFontComponent = createGlobalStyle`
@@ -29,6 +32,14 @@ font-face {
        url(${RubikBoldWoff2}) format('woff2'),
         url(${RubikBoldWoff}) format('woff');
         font-weight: 700;
+        font-style: normal;
+}
+font-face {
+    font-family: 'RubikBlack';
+        src: local('RubikBlack'), local('RubikBlack'),
+       url(${RubikExtraBoldWoff2}) format('woff2'),
+        url(${RubikExtraBoldWoff}) format('woff');
+        font-weight: 900;
         font-style: normal;
 }
 `;

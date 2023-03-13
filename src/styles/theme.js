@@ -12,6 +12,7 @@ export const theme = Object.freeze({
     primary: "RubikRegular, sans serif",
     primaryMedium: "RubikMedium, sans serif",
     primaryBold: "RubikBold, sans serif",
+    primaryExtraBold: "RubikBlack, sans serif",
   },
   fontSizes: {
     small: "14px",
@@ -30,6 +31,6 @@ export const theme = Object.freeze({
   media: {
     mobile: "480px",
     tablet: "768px",
-    desktop: "1280px",
+    desktop: "1200px",
   },
 });
